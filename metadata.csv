@@ -1,0 +1,40 @@
+Declare,metatab-latest
+Title,Survey of Income and Program Participation
+Description,"SIPP collects data and measures change for many topics including: economic well-being, family dynamics, education, assets, health insurance, childcare, and food security."
+Identifier,954efa52-661c-4d5d-bc2a-0121708e69a2
+Name,census.gov-sipp-1.1.1
+Dataset,sipp
+Origin,census.gov
+Time,
+Space,
+Grain,
+Variant,
+Version,1.1.1
+Version.Major,1
+Version.Minor,1
+Version.Patch,1
+Created,2020-12-17T19:05:19
+Modified,2020-12-17T19:05:20
+Giturl,https://github.com/metatab-packages/inequality-collection.git
+
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+Homepage,https://www.census.gov/programs-surveys/sipp.html,Program home page
+Downloadpage,https://www.census.gov/programs-surveys/sipp/data/datasets/2018-data/2018.html,2018 data page
+,,
+,,
+Section,References,Name,Description,
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/pu2018_dta.zip#pu2018.dta,pu2018_dta,"2018 SIPP primary data, stata format"
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/rw2018_sasdata.zip,rw2018_dta,"2018 SIPP replicate weights, stata format"
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/pu2018_csv.zip,pu2018_csv,"2018 SIPP primary data, CSV format"
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/rw2018_csv.zip,rw2018_csv,"2018 SIPP replicate weights, CSV format"
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/pu2018_schema.json,pu2018_schema,2018 Primary data schema
+Reference,https://www2.census.gov/programs-surveys/sipp/data/datasets/2018/rw2018_schema.json,rw2018_schema,2018 Replicate weights schema
+
+
+Section,Resources,Name,Description,
+
+Section,Schema,DataType,AltName,Description
